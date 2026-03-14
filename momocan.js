@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         桃の缶詰あいもげ味
 // @namespace    http://tampermonkey.net/
-// @version      1.1.0+0.9.89
+// @version      1.1.1+0.9.89
 // @description  桃の缶詰お絵描きツールをあいもげで動くよう直したもの
 // @author       kenshoen (Original author: akahuku)
 // @match        https://nijiurachan.net/
@@ -5366,6 +5366,7 @@ Licensed under MIT license (see "Smooth.js MIT license.txt")
 		<button data-href="#draw-complete">描き終えた</button>
 	</div>
 	<div>
+		<button data-href="#draw-cancel">休憩</button>
 		<span id="momocan-credit"><a class="credit" href="https://greasyfork.org/ja/scripts/569158/" target="_blank" draggable="false">桃の缶詰あいもげ味/${VERSION}</a></span>
 	</div>
 </div></div>
